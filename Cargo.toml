@@ -2,9 +2,11 @@
 name = "etcd-client"
 version = "0.1.0"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/casey-digennaro/etcd-client"
+repository = "https://github.com/SuperInstance/etcd-client"
 edition = "2021"
 description = "Async etcd v3 gRPC-style client for distributed coordination"
+
+keywords = ["etcd-client"]
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
